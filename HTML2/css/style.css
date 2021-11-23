@@ -1,0 +1,29 @@
+#paragraphs>p{
+    background-color:yellow
+}
+#paragraphs+p{
+    background-color:violet;
+}
+
+#paragraphs{
+    height: 100vh;
+    background-color:#8d4848;
+    background-image: url('../assets/images/pattern1.jfif');
+    background-repeat: repeat;
+}
+
+.box{
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    /* background-color: gray;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-image: url('../assets/images/bear.jpg'); */
+    background: gray url('../assets/images/bear.jpg') no-repeat right top;
+}
+
+
+/* #paragraphs:hover{
+    opacity: 0.7;
+} */
